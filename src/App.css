@@ -1,5 +1,11 @@
+body {
+  background-color: transparent;
+  color: #fff;
+}
+
 .App {
   text-align: center;
+  background-image: url('./im.jpg');
 }
 
 .App-logo {

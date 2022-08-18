@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import imagen from './im.jpg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hellooo</h1>
+      <p>Alta app debería tener acá pero de pedo se poner una imagen con React</p>
+      <button>Clic aquí</button>
+      <button>Clic aquí</button>
+      <button>Clic aquí</button>
+      <button>Clic aquí</button>
+      <br></br>
+      <img src={imagen} alt='universe'/>
     </div>
   );
 }
