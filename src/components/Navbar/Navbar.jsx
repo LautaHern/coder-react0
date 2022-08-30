@@ -21,7 +21,7 @@ const Navbar = () => {
                 </div>
                 <div className="cartDiv">
                     <CartForm contBuscar ="Productos"/>
-                    <img className="cartLogo" src="/img/Cart.svg" alt="" srcset="" />
+                    <img className="cartLogo" src="/img/Cart.svg" alt=""/>
                 </div>
             </div>
         </nav>
