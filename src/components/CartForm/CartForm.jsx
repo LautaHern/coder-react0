@@ -6,7 +6,7 @@ const CartForm= ({contBuscar}) => {
         <>
         <form className="d-flex" role="search">
             <input className="form-control me-2" type="search" placeholder={contBuscar}/>
-            <button className="btn btn-success" type="submit">Buscar</button>
+            <button className="btn btn-success bg-info" type="submit">Buscar</button>
         </form>
         <div>
             

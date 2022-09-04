@@ -1,8 +1,8 @@
 import './App.css';
 import React from 'react';
 import Navbar from './Navbar/Navbar';
-import ProdCards from './ProdCards/ProdCards';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
+import ItemList from './ItemList/ItemList';
 
 function App() {
   return (
@@ -10,8 +10,7 @@ function App() {
     <Navbar>
     </Navbar>
      <ItemListContainer greeting="Este é um mensagem muito divertido" />
-     <ItemListContainer greeting="This is another funny message" />
-    <ProdCards></ProdCards>
+     <ItemList></ItemList>
     </>
   );
 }

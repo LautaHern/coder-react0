@@ -10,11 +10,17 @@
 }
 
 body {
-    margin: 50px;
+    margin: 25px;
 }
 
-.fondo {
+body {
     background-image: url("./im.jpg");
+    color: #fff;
 }
+
+.form-control {
+    background: #fff;
+}
+
 
 
